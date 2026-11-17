@@ -1,0 +1,141 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Limita a largura do conteúdo para centralizar na tela */
+header, nav, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #006633; /* Verde estilo IFPA */
+    color: white;
+    border-radius: 8px 8px 0 0;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #004d26;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a3e635; /* Cor ao passar o rato */
+}
+
+/* Seções e Cartões */
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #006633;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #006633;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Artigos de Projetos */
+article {
+    background-color: #f8fafc;
+    border-left: 4px solid #006633;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Formulário de Inscrição */
+form p {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #006633;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d26;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    padding: 20px 0;
+}
+
+/* Esconde as linhas separadoras <hr> padrão */
+hr {
+    display: none;
+}
